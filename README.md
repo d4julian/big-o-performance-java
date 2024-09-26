@@ -1,13 +1,26 @@
 # big-o-performance
 A simple html app to demonstrate performance costs of data structures.
 
+## Project Overview
+This project illustrates the performance trade-offs of various data structures, such as arrays and linked lists, by calculating time complexity in real-time. Understanding Big-O is crucial in determining the efficiency of algorithms, especially in large-scale applications.
+
 - Clone the project
 - Navigate to the root of the project in a termina or command prompt
 - Run 'npm install'
 - Run 'npm start'
 - Go to the URL specified in the terminal or command prompt to try out the app.
 
-# This app was created from the Create React App NPM.  Below are instructions from that project.
+## How to use
+Once the app is running, you can interact with different data structures and observe their performance under various operations (e.g., insertions, deletions, searches). The app visualizes how operations like these scale with the size of the dataset.
+
+## Examples
+- Try adding 1000 elements to an array and compare the time it takes to search versus inserting elements into a linked list. 
+- This will demonstrate the differences between linear time `O(n)` and constant time `O(1)`, helping you understand the performance trade-offs.
+
+## Dependencies
+- This app was created using Create React App.
+- Ensure you have Node.js and npm installed to run the project.
+- Dependencies will be installed automatically via `npm install`.
 
 Below you will find some information on how to perform common tasks.  
 You can find the most recent version of this guide [here](https://github.com/facebookincubator/create-react-app/blob/master/template/README.md).
